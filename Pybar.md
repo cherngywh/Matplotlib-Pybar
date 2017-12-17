@@ -1,4 +1,4 @@
-# **Observable trends**<br />
+# **Observable Trends**<br />
 >**1. Drivers and rides are both the highest in urban city, high demand brings high supply.**<br />
 >**2. The fewer rides the higher average fare, especially in rural, maybe it's caused by more long distance travel and fewer daily commute.**<br />
 >**3. The percentage of drivers, rides, fares are almost the same in all kinds of city, it's kind of a balanced condition.** 
