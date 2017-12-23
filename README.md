@@ -219,6 +219,7 @@ Bubble_df.head()
 
 
 ```python
+# Create a scatter plot to show average fare and rides in all types of cities
 plt.figure(figsize=(8, 8))
 plt.style.use('seaborn-darkgrid')
 Urban_handle = plt.scatter(Urban_df['ride_count'], Urban_df['ave_fare_per_ride'], s=Urban_df['ride_count']*20,
@@ -245,6 +246,7 @@ plt.show()
 
 
 ```python
+# Create a scatter plot to show average fare and drivers in all types of cities
 plt.figure(figsize=(8, 8))
 plt.style.use('seaborn-darkgrid')
 Urban_handle = plt.scatter(Urban_df['driver_count'], Urban_df['ave_fare_per_driver'], s=Urban_df['driver_count']*20,
@@ -287,6 +289,7 @@ labels = ['Rural', 'Suburban', 'Urban']
 
 
 ```python
+# Total fares by city type
 plt.pie(FareCityType, explode=explode, colors=colors, labels=labels, autopct="%1.1f%%", shadow=True, startangle=90)
 plt.title('% of Total Fares by City Type')
 plt.show()
@@ -298,6 +301,7 @@ plt.show()
 
 
 ```python
+# Total rides by city type
 plt.title('% of Total Rides by City Type')
 plt.pie(RideCityType, explode=explode, colors=colors, labels=labels, autopct="%1.1f%%", shadow=True, startangle=90)
 plt.show()
@@ -309,6 +313,7 @@ plt.show()
 
 
 ```python
+# Total drivers by city type
 plt.title('% of Total Drivers by City Type')
 plt.pie(DriverCityType, explode=explode, colors=colors, labels=labels, autopct="%1.1f%%", shadow=True, startangle=90)
 plt.show()
