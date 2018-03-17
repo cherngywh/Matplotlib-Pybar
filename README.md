@@ -1,4 +1,4 @@
-# **Matplotlib-Pybar**<br />
+# Matplotlib-Pybar<br />
 ## Analysis
 *- Drivers and rides are both the highest in urban city, high demand brings high supply.*<br />
 *- The fewer rides the higher average fare, especially in rural, maybe it's caused by more long distance travel and fewer daily commute.*<br />
