@@ -1,7 +1,8 @@
-# **Observable Trends**<br />
->**1. Drivers and rides are both the highest in urban city, high demand brings high supply.**<br />
->**2. The fewer rides the higher average fare, especially in rural, maybe it's caused by more long distance travel and fewer daily commute.**<br />
->**3. The percentage of drivers, rides, fares are almost the same in all kinds of city, it's kind of a balanced condition.** 
+# **Matplotlib-Pybar**<br />
+## Analysis
+*- Drivers and rides are both the highest in urban city, high demand brings high supply.*<br />
+*- The fewer rides the higher average fare, especially in rural, maybe it's caused by more long distance travel and fewer daily commute.*<br />
+*- While comprising of roughly 35% of all rides and fares, Suburban and Rural cities afford only 22% of Pyber's total driver population. There may be a strategic opportunity here to boost driver counts in these regions to enhance market share.* 
 <br />
 
 ```python
